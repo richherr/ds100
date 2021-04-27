@@ -1,3 +1,5 @@
+libgcc-ng==9.1.0 
+hdf63c60_0
 jupyter-book==0.8.3
 ghp-import==1.0.0
 # Need to pin this to avoid breaking change in 2.0.0
