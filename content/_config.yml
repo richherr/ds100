@@ -1,0 +1,69 @@
+#######################################################################################
+# A default configuration that will be loaded for all jupyter books
+# See the documentation for help and more options:
+# https://jupyterbook.org/customize/config.html
+
+#######################################################################################
+# Book settings
+title: Principles and Techniques of Data Science # The title of the book. Will be placed in the left navbar.
+author: Sam Lau, Joey Gonzalez, and Deb Nolan # The author of the book
+copyright: "2021" # Copyright year to be placed in the footer
+
+# Never execute notebooks automatically so we don't get unexpected book changes
+execute:
+  execute_notebooks: "off"
+
+parse:
+  myst_extended_syntax: true
+  myst_enable_extensions:
+    # https://myst-parser.readthedocs.io/en/latest/using/syntax-optional.html
+    # https://github.com/executablebooks/jupyter-book/blob/c923bdbfb178d3da478394d6149a7754034ed6fb/docs/_config.yml
+    - amsmath
+    - colon_fence
+    - deflist
+    - dollarmath
+    - html_admonition
+    - html_image
+    - linkify
+    - replacements
+    - smartquotes
+    - substitution
+
+html:
+  extra_footer: |
+    <p>
+    License: CC BY-NC-ND 4.0
+    </p>
+  google_analytics_id: UA-113006011-1
+  home_page_in_navbar: false
+  use_repository_button     : true
+
+
+launch_buttons:
+  jupyterhub_url            : https://datahub.berkeley.edu
+  binderhub_url             : https://mybinder.org  # The URL of the BinderHub (e.g., https://mybinde$
+
+repository:
+  url                       : https://github.com/richherr/ds100  # The URL to your book's reposito$
+  branch                    : master  # Which branch of the repository should be used when creating l$
+
+bibtex_bibfiles:
+  - references.bib
+
+# Redirects since we added PCA as chapter 19
+sphinx:
+  extra_extensions:
+    - sphinx_multitoc_numbering
+  #   - sphinxext.rediraffe
+  # config:
+  #   rediraffe_branch: 'master'
+  #   rediraffe_redirects:
+  #     ch/19/vector_space_review.ipynb: ch/20/vector_space_review.ipynb
+
+  #     ch/20/ref_intro.ipynb: ch/21/ref_intro.ipynb
+  #     ch/20/ref_pandas.ipynb: ch/21/ref_pandas.ipynb
+  #     ch/20/ref_seaborn.ipynb: ch/21/ref_seaborn.ipynb
+  #     ch/20/ref_matplotlib.ipynb: ch/21/ref_matplotlib.ipynb
+  #     ch/20/ref_sklearn.ipynb: ch/21/ref_sklearn.ipynb
+
+  #     ch/21/contributors.ipynb: ch/22/contributors.ipynb
