@@ -8,7 +8,6 @@ channels:
 dependencies:
   - alabaster
   - applaunchservices
-  - appnope
   - argh
   - argon2-cffi
   - asn1crypto
@@ -212,7 +211,6 @@ dependencies:
   - python-jsonrpc-server
   - python-language-server
   - python-libarchive-c
-  - python.app
   - pytz
   - pywavelets
   - pyyaml
@@ -243,8 +241,8 @@ dependencies:
   - sortedcollections
   - sortedcontainers
   - soupsieve
-  - sphinx=3.2.1
-  - sphinxcontrib=1.0
+  - sphinx
+  - sphinxcontrib
   - sphinxcontrib-applehelp
   - sphinxcontrib-devhelp
   - sphinxcontrib-htmlhelp
@@ -252,45 +250,45 @@ dependencies:
   - sphinxcontrib-qthelp
   - sphinxcontrib-serializinghtml
   - sphinxcontrib-websupport
-  - spyder=4.1.5
+  - spyder
   - spyder-kernels
-  - sqlalchemy=1.3.20
-  - sqlite=3.33.0
+  - sqlalchemy
+  - sqlite
   - statsmodels
-  - sympy=1.6.2
-  - tblib=1.7.0
-  - terminado=0.9.1
-  - testpath=0.4.4
-  - threadpoolctl=2.1.0
+  - sympy
+  - tblib
+  - terminado
+  - testpath
+  - threadpoolctl
   - tifffile
-  - tk=8.6.10
-  - toml=0.10.1
-  - toolz=0.11.1
-  - tornado=6.0.4
-  - tqdm=4.50.2
-  - traitlets=5.0.5
+  - tk
+  - toml
+  - toolz
+  - tornado
+  - tqdm
+  - traitlets
   - typing_extensions
-  - ujson=4.0.1
-  - unicodecsv=0.14.1
-  - unixodbc=2.3.9
-  - urllib3=1.25.11
-  - watchdog=0.10.3
-  - wcwidth=0.2.5
+  - ujson
+  - unicodecsv
+  - unixodbc
+  - urllib3
+  - watchdog
+  - wcwidth
   - webencodings
-  - werkzeug=1.0.1
-  - wheel=0.35.1
+  - werkzeug
+  - wheel
   - widgetsnbextension
-  - wrapt=1.11.2
-  - wurlitzer=2.0.1
-  - xlrd=1.2.0
-  - xlsxwriter=1.3.7
-  - xlwings=0.20.8
-  - xlwt=1.3.0
-  - xz=5.2.5
-  - yaml=0.2.5
-  - yapf=0.30.0
-  - zict=2.0.0
-  - zipp=3.4.0
+  - wrapt
+  - wurlitzer
+  - xlrd
+  - xlsxwriter
+  - xlwings
+  - xlwt
+  - xz
+  - yaml
+  - yapf
+  - zict
+  - zipp
   - pip:
     - docopt
     - ghp-import

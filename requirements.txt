@@ -1,18 +1,21 @@
 anaconda-2020.11-py38_0
-anaconda-client==1.7.2=py38_0
-anaconda-project==0.8.4=py_0
-zope.interface==5.1.2 
-zope=1.0==py38_1
-zope.event==4.5.0=py38_0
-zope.interface==5.1.2=py38haf1e3a3_0
-appscript=1.1.1==py38haf1e3a3_0py38haf1e3a3_0
-zstd=1.4.5==h41d2c2f_0
-zeromq==4.3.3 hb1e8313_3
-zlib ==1.2.11 h1de35cc_3
-libgcc-ng==9.1.0 
+anaconda-client
+anaconda-project
+zope.interface
+zope
+zope.event
+zope.interface
+appscript
+zstd
+zeromq
+zlib
+libgcc-ng
 hdf63c60_0
-jupyter-book==0.8.3
-ghp-import==1.0.0
+jupyter-book
+ghp-import
+appnope
+python.app
+xlwings
 # Need to pin this to avoid breaking change in 2.0.0
 # https://github.com/executablebooks/jupyter-book/issues/1137
 sphinxcontrib-bibtex==1.0.0
