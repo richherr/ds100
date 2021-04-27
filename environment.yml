@@ -1,5 +1,9 @@
 name: textbook
 channels:
+  - conda-forge
+  - conda 
+  - pytorch
+  - pypi
   - defaults
 dependencies:
   - alabaster=0.7.12=py_0
