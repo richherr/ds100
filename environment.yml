@@ -282,7 +282,6 @@ dependencies:
   - wurlitzer
   - xlrd
   - xlsxwriter
-  - xlwings
   - xlwt
   - xz
   - yaml
