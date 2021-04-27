@@ -4,3 +4,4 @@ conda install -c conda-forge nodejs
 jupyter nbextension enable --py --sys-prefix widgetsnbextension
 jupyter nbextension enable --py --sys-prefix bqplot
 jupyter serverextension enable --py jupyterlab --user
+jupyter lab build
