@@ -264,7 +264,7 @@ dependencies:
   - tk
   - toml
   - toolz
-  - tornado
+  - tornado<6
   - tqdm
   - traitlets
   - typing_extensions
