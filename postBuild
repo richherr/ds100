@@ -3,6 +3,7 @@ python -m pip install -U matplotlib==3.2 datascience numpy scipy bqplot jupyter-
 conda install -c conda-forge nodejs
 jupyter nbextension enable --py --sys-prefix widgetsnbextension
 jupyter nbextension enable --py --sys-prefix bqplot
+pip install --upgrade nbconvert
 #jupyter serverextension enable --py jupyterlab --user
 #conda update jupyterlab
 #jupyter lab build
