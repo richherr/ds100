@@ -108,7 +108,7 @@ dependencies:
   - itsdangerous
   - jbig
   - jdcal
-  - jedi<0.16
+  - jedi
   - jinja2
   - joblib
   - jpeg
@@ -267,7 +267,7 @@ dependencies:
   - tblib
   - terminado
   - testpath
-  - tensorflow==2.2
+  - tensorflow<2.2.0
   - tensorboard<2.3.0                  
   - tensorboard-plugin-wit        
   - tensorflow-datasets           
