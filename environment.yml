@@ -1,0 +1,32 @@
+name: textbook
+channels:
+  - conda-forge
+  - conda 
+  - pytorch
+  - pypi
+  - defaults
+dependencies:
+  - libgcc
+  - gxx_linux-64
+  - python                          
+  - pip
+  - pandas-profiling
+  - plotly
+  - jupyterlab-plotly-extension
+  - rpy2                         
+  - rsa                           
+  - scikit-image                  
+  - scikit-learn 
+  - sklearn-pandas        
+  - dask
+  - pandas-datareader             
+  - pandas-gbq                    
+  - pandocfilters 
+  - tensorboard                   
+  - tensorboard-plugin-wit        
+  - tensorflow                    
+  - tensorflow-datasets           
+  - tensorflow-estimator          
+  - tensorflow-hub                
+  - tensorflow-metadata           
+  - tensorflow-probability  
