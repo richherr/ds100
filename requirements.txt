@@ -1,4 +1,4 @@
-anaconda-2020.11-py38_0
+anaconda
 anaconda-client
 anaconda-project
 zope.interface
