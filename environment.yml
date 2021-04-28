@@ -267,7 +267,7 @@ dependencies:
   - tblib
   - terminado
   - testpath
-  - tensorflow
+  - tensorflow<2.2
   - threadpoolctl
   - tifffile
   - tk

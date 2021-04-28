@@ -98,6 +98,7 @@ dependencies:
   - jpeg
   - json5
   - jsonschema
+  
   - jupyter
   - jupyter_client
   - jupyter_console
@@ -105,6 +106,7 @@ dependencies:
   - jupyterlab
   - jupyterlab_pygments
   - jupyterlab_server
+  
   - keyring
   - kiwisolver
   - krb5
@@ -206,7 +208,9 @@ dependencies:
   - pysocks
   - pytables
   - pytest
+  
   - python
+  
   - python-dateutil
   - python-jsonrpc-server
   - python-language-server
@@ -289,6 +293,7 @@ dependencies:
   - yapf
   - zict
   - zipp
+  
   - pip:
     - docopt
     - ghp-import
