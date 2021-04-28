@@ -267,7 +267,14 @@ dependencies:
   - tblib
   - terminado
   - testpath
-  - tensorflow<2.2
+  - tensorflow==2.2
+  - tensorboard                   
+  - tensorboard-plugin-wit        
+  - tensorflow-datasets           
+  - tensorflow-estimator          
+  - tensorflow-hub                
+  - tensorflow-metadata           
+  - tensorflow-probability      
   - threadpoolctl
   - tifffile
   - tk
