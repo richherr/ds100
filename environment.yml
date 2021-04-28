@@ -331,3 +331,5 @@ dependencies:
   - sphinxcontrib-bibtex
   - sphinxext-rediraffe
   - sphinx-multitoc-numbering
+  - libgcc-ng
+  - appnope

@@ -295,6 +295,7 @@ dependencies:
   - zipp
   
   - pip:
+  
     - docopt
     - ghp-import
     - gitdb
