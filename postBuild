@@ -3,7 +3,7 @@ python -m pip install -U matplotlib==3.2 datascience numpy scipy bqplot jupyter-
 conda install -c conda-forge nodejs
 jupyter nbextension enable --py --sys-prefix widgetsnbextension
 jupyter nbextension enable --py --sys-prefix bqplot
-install install tornado==5.1.1
+pip install tornado==5.1.1
 #jupyter serverextension enable --py jupyterlab --user
 #conda update jupyterlab
 #jupyter lab build
