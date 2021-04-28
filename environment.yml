@@ -30,7 +30,7 @@ dependencies:
   - tensorflow-hub                
   - tensorflow-metadata           
   - tensorflow-probability  
-   - alabaster
+  - alabaster
   - applaunchservices
   - argh
   - argon2-cffi
