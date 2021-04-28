@@ -311,7 +311,7 @@ dependencies:
   - jupyter-book
   - jupyter-cache
   - jupyter-sphinx
-  - jupyter-server==1.1
+  - jupyter-server==1.1.0
   - latexcodec
   - markdown-it-py
   - myst-nb
