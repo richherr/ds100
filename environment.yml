@@ -304,3 +304,30 @@ dependencies:
   - yapf
   - zict
   - zipp
+  - docopt
+  - ghp-import
+  - gitdb
+  - gitpython
+  - jupyter-book
+  - jupyter-cache
+  - jupyter-sphinx
+  - latexcodec
+  - markdown-it-py
+  - myst-nb
+  - myst-parser
+  - nbconvert
+  - nbdime
+  - oset
+  - pybtex
+  - pybtex-docutils
+  - pydata-sphinx-theme
+  - smmap
+  - sphinx-book-theme
+  - sphinx-comments
+  - sphinx-copybutton
+  - sphinx-panels
+  - sphinx-thebe
+  - sphinx-togglebutton
+  - sphinxcontrib-bibtex
+  - sphinxext-rediraffe
+  - sphinx-multitoc-numbering
