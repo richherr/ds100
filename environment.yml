@@ -179,7 +179,7 @@ dependencies:
   - notebook
   - numba
   - numexpr
-  - numpy
+  - numpy < 2
   - numpy-base
   - numpydoc
   - olefile
